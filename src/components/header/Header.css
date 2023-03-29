@@ -1,0 +1,20 @@
+.header{
+    background: #1C2B35;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 20px 100px;
+}
+.header .menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.header .menu a:hover{
+    border-bottom: 1px solid #ff9900;
+    transition: 0.5s;
+}
